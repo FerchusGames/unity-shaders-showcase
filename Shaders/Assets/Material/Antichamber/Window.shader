@@ -1,4 +1,4 @@
-Shader "Antichamber/Inside"
+Shader "Antichamber/Window"
 {
     Properties
     {
@@ -10,12 +10,16 @@ Shader "Antichamber/Inside"
     SubShader
     {
         Tags{"RenderPipeline" = "UniversalPipeline"}
-        Tags {"Queue" = "Transparent+1" "RenderType" = "Opaque"}
+        Tags {"Queue" = "Transparent" "RenderType" = "Opaque"}
         
-         Stencil
+        ColorMask 0
+        Zwrite off
+        
+        Stencil
         {
             Ref [_StencilRef]
-            comp equal
+            comp always
+            pass replace
         }   
         
         Pass
