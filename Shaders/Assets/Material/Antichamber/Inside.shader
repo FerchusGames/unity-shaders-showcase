@@ -4,18 +4,18 @@ Shader "Antichamber/Inside"
     {
         [Header(Surface options)]
         [MainColor] _ColorTint ("Tint", Color) = (1,1,1,1)
-        _StencilRef ("Stencil Reference", Int) = 0
+        //_StencilRef ("Stencil Reference", Int) = 0
     }
     
     SubShader
     {
         Tags{"RenderPipeline" = "UniversalPipeline"}
-        Tags {"Queue" = "Transparent+1" "RenderType" = "Opaque"}
+        Tags {"Queue" = "Transparent" "RenderType" = "Opaque"}
         
          Stencil
         {
-            Ref [_StencilRef]
-            comp equal
+            Ref 1
+            Comp Equal
         }   
         
         Pass

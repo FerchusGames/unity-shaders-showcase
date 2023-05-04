@@ -4,22 +4,22 @@ Shader "Antichamber/Window"
     {
         [Header(Surface options)]
         [MainColor] _ColorTint ("Tint", Color) = (1,1,1,1)
-        _StencilRef ("Stencil Reference", Int) = 0
+        //_StencilRef ("Stencil Reference", Int) = 0
     }
     
     SubShader
     {
         Tags{"RenderPipeline" = "UniversalPipeline"}
-        Tags {"Queue" = "Transparent" "RenderType" = "Opaque"}
+        Tags {"Queue" = "Transparent+1" "RenderType" = "Opaque"}
         
-        ColorMask 0
-        Zwrite off
+        //ColorMask 0
+        //Zwrite off
         
         Stencil
         {
-            Ref [_StencilRef]
-            comp always
-            pass replace
+            Ref 1
+            Comp Always
+            Pass Replace
         }   
         
         Pass
