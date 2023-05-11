@@ -69,9 +69,9 @@ Material:
     - _fresnelPower: 1
     - _isUsingNormalMap: 1
     - _isUsingSpecularColor: 0
-    - _isUsingSpecularMap: 1
-    - _normalStrength: 0.3
-    - _specularStrength: 5
+    - _isUsingSpecularMap: 0
+    - _normalStrength: 0.5
+    - _specularStrength: 4
     m_Colors:
     - _MainColor: {r: 1, g: 1, b: 1, a: 0}
     - _SpecularColor: {r: 1, g: 0, b: 0, a: 0}
