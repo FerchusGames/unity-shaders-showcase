@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Spaceship_Unlit
+  m_Shader: {fileID: -6465566751694194690, guid: ee27d3282a2e841438b4a5b27cff84fd,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Normal_Map:
+        m_Texture: {fileID: 2800000, guid: a8bad97ca8cefad4ab2a3339fc9e89de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PBR_Base_Map:
+        m_Texture: {fileID: 2800000, guid: 6f3f4de09bc31f14a949011a7799bce6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PBR_Color_Mask:
+        m_Texture: {fileID: 2800000, guid: 39c92e689af725a4b86bcdd2b0862eb3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PBR_Specular_Map:
+        m_Texture: {fileID: 2800000, guid: a48868bc08f722d419099850278ee677, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Toon_Base_Map:
+        m_Texture: {fileID: 2800000, guid: 08612a2ef54411449aa94a04674643b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Toon_Color_Mask:
+        m_Texture: {fileID: 2800000, guid: 2cf893059565a394fad74347244e3fc2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Toon_Specular_Map:
+        m_Texture: {fileID: 2800000, guid: 3e1c56ce14dd99f4f9c91f6dfb3770da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Fresnel_Strength: 1
+    - _Normal_Strength: 1
+    - _Posterize_Steps: 4
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Refraction_Intensity: 0.2
+    - _Shadow_Position: 0.2
+    - _Specular_Steps: 2
+    - _Specular_Strength: 4
+    - _Visibility: 1
+    m_Colors:
+    - _Base_Color: {r: 0, g: 1.3797047, b: 2.9960787, a: 0}
+    - _Fresnel_Color: {r: 1, g: 0.6351261, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &5325119749512113527
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
