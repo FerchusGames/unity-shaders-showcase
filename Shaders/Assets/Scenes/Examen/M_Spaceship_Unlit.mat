@@ -68,20 +68,20 @@ Material:
     m_Floats:
     - _Fresnel_Strength: 2
     - _Normal_Strength: 1
-    - _PBR_Toon_Lerp: 0
+    - _PBR_Toon_Lerp: 1
     - _Posterize_Steps: 4
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Refraction_Intensity: 0.2
     - _Shadow_Position: 0.2
     - _Specular_Steps: 2
-    - _Specular_Strength: 4
+    - _Specular_Strength: 4.7
     - _Transition_Gradient: 0.1
     - _Transition_Value: 0
     - _Use_PBR_Shader: 1
     - _Visibility: 1
     m_Colors:
-    - _Base_Color: {r: 1, g: 0, b: 0.4158044, a: 1}
+    - _Base_Color: {r: 0, g: 0.64744127, b: 0.735849, a: 1}
     - _Emissive_Color: {r: 0, g: 4, b: 2.827634, a: 1}
     - _Fresnel_Color: {r: 0, g: 3.0739417, b: 5.3403144, a: 0}
     - _Transition_Color: {r: 0, g: 3.0739417, b: 5.3403144, a: 0}
